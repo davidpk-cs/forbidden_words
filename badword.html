@@ -8,10 +8,39 @@
 </head>
 <body>
 
-    <div id="menuBar">
-
+    <div id="topBar" class="menuBar">
         <button>How To Play</button>
         <button>Parameters</button>
+        <button>Reset</button>
+    </div>
+
+    <div id="gameBar" class="menuBar">
+        <button>Start Game</button>
+        <p>Round -/-</p>
+        <p>Team _ Play</p>
+        <button>Pause</button>
+    </div>
+
+    <div id="gameBody">
+
+        <button class="gameButton" id="discard">Discard</button>
+
+        <div id="card">
+            <h4>Word</h4>
+            <br>
+            <p>Forbidden</p>
+            <br>
+            <p>Forbidden</p>
+            <br>
+            <p>Forbidden</p>
+            <br>
+            <p>Forbidden</p>
+            <br>
+            <p>Forbidden</p>
+        </div>
+
+        <button class="gameButton" id="take">Take</button>
+
     </div>
 
     <script src="scripts.js"></script>

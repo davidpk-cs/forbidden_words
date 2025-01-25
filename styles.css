@@ -1,4 +1,69 @@
-#menuBar{
+.menuBar{
     display:flex;
     justify-content:space-evenly;
+}
+
+#topBar{
+    background-color:aqua;
+    padding:10px;
+    margin:10px;
+}
+
+#topBar button{
+    font-size:1.5em;
+    background-color:navy;
+    color:white;
+    border:2px solid white;
+    border-radius:10%;
+}
+
+#topBar button:hover{
+    font-size:1.5em;
+    background-color:white;
+    color:navy;
+    border:2px solid navy;
+    border-radius:10%;
+}
+
+#gameBar {
+    background-color:lightblue;
+    font-size:1.5em;
+}
+
+#gameBody{
+    height:80%;
+    display:flex;
+    justify-content:space-evenly;
+    margin:25px;
+}
+
+#card{
+    text-align:center;
+    background-color:azure;
+    border:5px solid black;
+    width:30%;
+}
+
+.gameButton{
+    width:35%;
+    font-size:5em;
+    color:white;
+    border:3px solid black;
+}
+
+#discard{
+    background-color:red;
+}
+
+#discard:hover{
+    background-color:darkred;
+}
+
+#take{
+    background-color:green;
+    
+}
+
+#take:hover{
+    background-color:darkgreen;
 }
