@@ -15,34 +15,38 @@
     </div>
 
     <div id="gameBar" class="menuBar">
+        <p id="team0">Team _ : 0</p>
         <button>Start Game</button>
         <p>Round -/-</p>
+        <p id="Timer">Time:</p>
         <p>Team _ Play</p>
         <button>Pause</button>
+        <p id="team1">Team _ : 0</p>
     </div>
 
     <div id="gameBody">
 
-        <button class="gameButton" id="discard">Discard</button>
+        <button class="gameButton" id="discard" onclick="discard()">Discard</button>
 
         <div id="card">
-            <h4>Word</h4>
+            <h4 id="word">Word</h4>
             <br>
-            <p>Forbidden</p>
+            <p id="f1">Forbidden</p>
             <br>
-            <p>Forbidden</p>
+            <p id="f2">Forbidden</p>
             <br>
-            <p>Forbidden</p>
+            <p id="f3">Forbidden</p>
             <br>
-            <p>Forbidden</p>
+            <p id="f4">Forbidden</p>
             <br>
-            <p>Forbidden</p>
+            <p id="f5">Forbidden</p>
         </div>
 
-        <button class="gameButton" id="take">Take</button>
+        <button class="gameButton" id="take" onclick="take()">Take</button>
 
     </div>
 
+    <script src="cards.js"></script>
     <script src="scripts.js"></script>
 </body>
 </html>
