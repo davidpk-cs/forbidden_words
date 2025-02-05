@@ -74,3 +74,57 @@
 #take:hover{
     background-color:darkgreen;
 }
+
+#timer{
+    height:100px;
+}
+
+.scoreVal{
+    font-size:1.5em;
+}
+
+#recapHeader{
+
+    text-align:center;
+    color:black;
+}
+
+#resultsScreenCardDeck{
+    display:flex;
+    justify-content:left;
+    flex-wrap:wrap;
+}
+
+.resultsScreenCard{
+    text-align:center;
+    border:1px solid;
+    margin:2px;
+}
+
+.resultsScreenCard h4 , .resultsScreenCard p{
+    margin:1px;
+}
+
+.wonCard{
+    color:darkgreen;
+    background:2px solid darkgreen;
+    background-color:lightgreen;
+}
+
+.lostCard{
+    color:darkred;
+    border:2px solid darkred;
+    background-color:lightcoral;
+}
+
+.wonCard:hover{
+    color:lightgreen;
+    background:2px solid lightgreen;
+    background-color:darkgreen;
+}
+
+.lostCard:hover{
+    color:lightcoral;
+    border:2px solid lightcoral;
+    background-color:darkred;
+}
